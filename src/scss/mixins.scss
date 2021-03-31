@@ -1,0 +1,13 @@
+@mixin font($font, $weight: 400, $size: 1rem) {
+    @if ($font == "r") {
+        font-family: 'Roboto', sans-serif;
+    }
+    @elseif ($font == "m") {
+        font-family: 'Montserrat', sans-serif;
+    }
+    @elseif ($font == "k") {
+        font-family: 'Kaushan Script', cursive;
+    }
+    font-weight: $weight;
+    font-size: $size;
+}
