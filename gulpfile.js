@@ -67,6 +67,7 @@ const observe = function (cb) {
     cb();
 }
 
+exports.default = series(html, styles, scripts, img);
 exports.html = html;
 exports.styles = styles;
 exports.scripts = scripts;
